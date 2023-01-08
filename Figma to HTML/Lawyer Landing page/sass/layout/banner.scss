@@ -1,0 +1,109 @@
+//! Variable file is  below
+@import '../utils/variables.scss';
+
+.banner {
+    margin: 50px 178px 130px 170px;
+    display: flex;
+    justify-content: space-between;
+   
+
+    .banner-content {
+        .stay-connect {
+            margin: 95px 0 16px 0;
+            width: 434px;
+            height: 40px;
+            background: $stayBg;
+            border-radius: 26.5px;
+            position: relative;
+
+            p {
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 36px;
+                color: $primaryColor;
+                position: absolute;
+                left: 100px;
+            }
+
+            button {
+                border-style: none;
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 400;
+                padding: 4px 18px;
+                background: $primaryColor;
+                border-radius: 26.5px;
+                color: $sada;
+                position: absolute;
+                top: 8px;
+                left: 16px;
+            }
+        }
+
+        .banner-context {
+            padding-bottom: 115px;
+
+            .banner-title {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 90px;
+                line-height: 120%;
+                color: $primaryColor;
+                letter-spacing: 0.02em;
+            }
+
+            .banner-description {
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 158%;
+                color: $gray6;
+                margin: 50px 0 50px 0;
+                width: 590px;
+            }
+
+            button {
+                padding: 30px 35px;
+                background: $primaryColor;
+                border-radius: 8px;
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 140.5%;
+                color: $sada;
+            }
+        }
+
+        .companies-log {
+            .companies-title {
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 140.5%;
+                color: $gray5;
+                padding-bottom: 34px;
+            }
+            img{
+                margin: 15px;
+            }
+            img:nth-child(3){
+                padding-left: 80px;
+            }
+            img:nth-child(6){
+                padding-left: 45px;
+            }
+        }
+    }
+    .banner-img{
+        position: relative;
+        top: -150px;
+
+       
+    }
+}
